@@ -1,0 +1,167 @@
+body {
+  font-family: 'Bruno Ace SC', sans-serif;
+  line-height: 1.5;
+}
+img {
+  display: block;
+}
+a {
+  text-decoration: none;
+}
+button {
+  cursor: pointer;
+}
+.test {
+  border: 1px solid red;
+}
+.d-block {
+  display: block;
+}
+.d-flex {
+  display: flex;
+}
+.f-wrap {
+  flex-wrap: wrap;
+}
+.tac {
+  text-align: center;
+}
+.tae {
+  text-align: end;
+}
+.jcc {
+  justify-content: center;
+}
+.jcsa {
+  justify-content: space-around;
+}
+.jcsb {
+  justify-content: space-between;
+}
+.aic {
+  align-items: center;
+}
+.container {
+  max-width: 1296px;
+  margin: 0 auto;
+}
+
+.navbar {
+  ul {
+    padding: 40px 0 24px;
+    li {
+      width: 25%;
+    }
+  }
+}
+
+.header {
+  padding: 72px 312px;
+  .header-right {
+    padding: 160px 0 160px 24px;
+    button {
+      background: white;
+      display: block;
+      margin-left: auto;
+      padding: 12px 24px;
+      border: 0;
+      border-radius: 32px;
+      width: 185px;
+      img {
+        display: inline;
+        vertical-align: middle;
+      }
+    }
+  }
+}
+
+
+.introduction {
+  padding: 160px 312px;
+  .introduction-left {
+    max-width: 526px;
+    margin-right: 24px;
+    p  {
+      padding:36px 0 32px ;
+    }
+  }
+  .introduction-right {
+    max-width: 746px;
+  }
+}
+
+.about {
+  padding: 160px 312px;
+  .card {
+    max-width: 640px;
+    ul {
+      flex-wrap: wrap;
+      li {
+        max-width: 302px;
+        h3 {
+          padding: 16px 16px 4px;
+        }
+        p {
+          padding: 4px 16px 16px;
+        }
+      }
+    }
+  }
+  .about-me {
+    max-width: 526px;
+    h2 {
+      margin-bottom: 32px;
+    }
+  }
+}
+
+.contact {
+  padding: 96px 312px;
+  background: #000;
+  img {
+    display: inline;
+    width: 100px;
+    margin-left: 16px;
+  }
+  .contact-imgs {
+    width: 526px;
+    img {
+      display: block;
+      width: 162px;
+      margin: 0;
+    }
+  }
+}
+
+.projects {
+  padding: 160px 312px;
+  h2 {
+    padding-left: 550px;
+  }
+  .projects-content-left {
+    margin-right: 24px;
+  }
+  .projects-content-right-top {
+    img {
+      margin-right: 24px;
+      margin-bottom: 24px;
+    }
+    button {
+      background: #000;
+      margin-top: 76px;
+      padding: 12px 24px;
+      border: 0;
+      border-radius: 32px;
+      width: 185px;
+      img {
+        display: inline;
+        margin: 0;
+      }
+    }
+  }
+}
+
+.footer {
+  padding: 40px 0;
+  background: #000;
+}
