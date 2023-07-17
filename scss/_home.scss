@@ -123,13 +123,20 @@ button {
     width: 100px;
     margin-left: 16px;
   }
-  .contact-imgs {
+  .contact-img {
     width: 526px;
     img {
       display: block;
       width: 162px;
       margin: 0;
+      &:hover {
+        filter: drop-shadow(0 0 12px rgba(144, 148, 255, 0.9));
+        
+        
+        
+      }
     }
+
   }
 }
 
