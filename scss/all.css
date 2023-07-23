@@ -214,6 +214,7 @@ button {
 .about .card ol li {
   max-width: 302px;
   border: 1px solid rgb(227, 227, 227);
+  margin: 0 0 24px 0;
 }
 .about .card ol li h3 {
   padding: 16px 16px 4px;
