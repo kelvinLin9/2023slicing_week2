@@ -93,10 +93,6 @@ table {
   background: #000;
 }
 
-.bg-introduction {
-  background: url(https://raw.githubusercontent.com/hexschool/2022-web-layout-training/main/2023week2/background-img.png);
-}
-
 body {
   font-family: "Bruno Ace SC", sans-serif;
   line-height: 1.5;
@@ -167,10 +163,11 @@ button {
 }
 
 .header {
-  padding: 72px 312px;
+  padding: 72px 0;
 }
 .header .header-right {
-  padding: 160px 0 160px 24px;
+  padding: 0 24px;
+  align-self: center;
 }
 .header .header-right button {
   background: white;
@@ -186,8 +183,12 @@ button {
   vertical-align: middle;
 }
 
+.bg-introduction {
+  background: url(https://raw.githubusercontent.com/hexschool/2022-web-layout-training/main/2023week2/background-img.png);
+}
+
 .introduction {
-  padding: 160px 312px;
+  padding: 160px 0;
 }
 .introduction .introduction-left {
   max-width: 526px;
@@ -198,6 +199,7 @@ button {
 }
 .introduction .introduction-right {
   max-width: 746px;
+  width: 100%;
 }
 
 .about {
@@ -206,16 +208,17 @@ button {
 .about .card {
   max-width: 640px;
 }
-.about .card ul {
+.about .card ol {
   flex-wrap: wrap;
 }
-.about .card ul li {
+.about .card ol li {
   max-width: 302px;
+  border: 1px solid rgb(227, 227, 227);
 }
-.about .card ul li h3 {
+.about .card ol li h3 {
   padding: 16px 16px 4px;
 }
-.about .card ul li p {
+.about .card ol li p {
   padding: 4px 16px 16px;
 }
 .about .about-me {
@@ -250,16 +253,23 @@ button {
   padding: 160px 312px;
 }
 .projects h2 {
-  padding-left: 550px;
+  width: 746px;
+  margin-left: auto;
 }
 .projects .projects-content-left {
   margin-right: 24px;
 }
-.projects .projects-content-right-top img {
-  margin-right: 24px;
+.projects .projects-content-right-top {
   margin-bottom: 24px;
 }
-.projects .projects-content-right-top button {
+.projects .projects-content-right-top img {
+  margin-right: 24px;
+}
+.projects .projects-content-right-top .see-more-box {
+  flex-direction: column;
+  margin-top: auto;
+}
+.projects .projects-content-right-top .see-more-box button {
   background: #000;
   margin-top: 76px;
   padding: 12px 24px;
@@ -267,7 +277,7 @@ button {
   border-radius: 32px;
   width: 185px;
 }
-.projects .projects-content-right-top button img {
+.projects .projects-content-right-top .see-more-box button img {
   display: inline;
   margin: 0;
 }

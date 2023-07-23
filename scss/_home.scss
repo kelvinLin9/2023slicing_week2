@@ -56,9 +56,10 @@ button {
 }
 
 .header {
-  padding: 72px 312px;
+  padding: 72px 0;
   .header-right {
-    padding: 160px 0 160px 24px;
+    padding: 0 24px;
+    align-self: center;
     button {
       background: white;
       display: block;
@@ -76,8 +77,11 @@ button {
 }
 
 
+.bg-introduction {
+  background: url(https://raw.githubusercontent.com/hexschool/2022-web-layout-training/main/2023week2/background-img.png);
+}
 .introduction {
-  padding: 160px 312px;
+  padding: 160px 0;
   .introduction-left {
     max-width: 526px;
     margin-right: 24px;
@@ -87,6 +91,7 @@ button {
   }
   .introduction-right {
     max-width: 746px;
+    width: 100%;
   }
 }
 
@@ -94,10 +99,11 @@ button {
   padding: 160px 312px;
   .card {
     max-width: 640px;
-    ul {
+    ol {
       flex-wrap: wrap;
       li {
         max-width: 302px;
+        border: 1px solid rgba(227, 227, 227, 1);
         h3 {
           padding: 16px 16px 4px;
         }
@@ -143,26 +149,31 @@ button {
 .projects {
   padding: 160px 312px;
   h2 {
-    padding-left: 550px;
+    width: 746px;
+    margin-left: auto;
   }
   .projects-content-left {
     margin-right: 24px;
   }
   .projects-content-right-top {
+    margin-bottom: 24px;
     img {
       margin-right: 24px;
-      margin-bottom: 24px;
     }
-    button {
-      background: #000;
-      margin-top: 76px;
-      padding: 12px 24px;
-      border: 0;
-      border-radius: 32px;
-      width: 185px;
-      img {
-        display: inline;
-        margin: 0;
+    .see-more-box {
+      flex-direction: column;
+      margin-top: auto;
+      button {
+        background: #000;
+        margin-top: 76px;
+        padding: 12px 24px;
+        border: 0;
+        border-radius: 32px;
+        width: 185px;
+        img {
+          display: inline;
+          margin: 0;
+        }
       }
     }
   }
